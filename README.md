@@ -25,7 +25,13 @@ if __name__ == "__main__":
 
 ```zsh
 ▶ uv run main.py
+Uninstalled 1 package in 906ms
+Installed 1 package in 245ms
 tensor([[0.6627, 0.5539, 0.4431],
         [0.4663, 0.2183, 0.0328],
         [0.6295, 0.8436, 0.8391],
 ```
+
+## Step 1: Comparing PyTorch performance on M1 macOS CPU vs GPU
+
+In macOS, [MPS (Metal Performance Shaders)](https://developer.apple.com/metal/pytorch/) developed by Apple that provides highly tuned, GPU accelerated primitives.
